@@ -1,30 +1,39 @@
---><html>
+<html>
 <head>
-	<title></title>
+	<title>Registro</title>
 </head>
 <body>
-<h1>Ingreso</h1>
-
-	
+<h1>Ingreso</h1>	
 <form method="post" action="">
-
-<input type="text" required placeholder="Nombre" autocomplete="off"><br>
-<input type="text" required placeholder="Apellido" autocomplete="off"><br>
-<select><p>Pais:</p>
+Nombre<br><input type="text" required placeholder="Nombre" autocomplete="off"><br>
+Apellido<br><input type="text" required placeholder="Apellido" autocomplete="off"><br>
+Fecha de Nacimiento :<br>
+<input type="date" name="fecha"><br>
+Edad<br>
+<input type="number" name="edad"><br>
+Pais:<br><select>
   <option value="Arg">Argentina</option>
   <option value="mexicoo">Mexico</option>
   <option value="eeuu">EE.UU</option>
   <option value="holanda">Holanda</option>
 </select><br>
-<input type="radio" name="gender" value="male"> Male<br>
-<input type="radio" name="gender" value="female"> Female<br>
-<input type="text" id="email" required placeholder="Correo" autocomplete="off"><br>
-<input type="text" id="email" required placeholder=" Vuelva a ingresar Correo" autocomplete="off"><br>
+Sexo:<br>
+<input type="radio" name="sx" value="m"> Maculino<br>
+<input type="radio" name="sx" value="f"> Femenino<br>
+Actividades:<br>
+<input type="checkbox" name="Actividades" value="leer">Leer libros<br>
+<input type="checkbox" name="Actividades" value="Correr">Correr<br> 
+<input type="checkbox" name="Actividades" value="Hacer deportes">Hacer Deporte<br>
+<input type="checkbox" name="Actividades" value="Cantar">Cantar<br> 
+Correo<br><input type="text" id="email1" required placeholder="Correo" autocomplete="off"><br>
+Vuelva a ingresar Correo<br><input type="text" id="email2" required placeholder=" Vuelva a ingresar Correo" autocomplete="off"><br>
 <input type="text" required placeholder="Nombre de usuario" autocomplete="off"> <br>
-<input type="password" name="password" id="password" required placeholder="Contrasenia" autocomplete="off"> <br>
-<input type="password" name="password" id="password" required placeholder="Vuelva a ingresar contrasenia" autocomplete="off"> <br>
-Seleccione una imagen<input type="file" name="fileToUpload" id="fileToUpload"><br>
+Contrasenia<br><input type="password" name="password1" id="password" required placeholder="Contrasenia" autocomplete="off"> <br>
+Vuelva a ingresar contrasenia<br><input type="password" name="password2" id="password" required placeholder="Vuelva a ingresar contrasenia" autocomplete="off"> <br>
+Seleccione una imagen<br><input type="file" name="fileToUpload" id="fileToUpload"><br>
+
 			<input type="submit" value="Registrar" title="Registra tu cuenta">
+
 
 </body>
 </html>
